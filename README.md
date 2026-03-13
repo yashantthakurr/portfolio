@@ -21,7 +21,3 @@ A modern personal portfolio website built using **React** with a fully functiona
 ## Contact Form Workflow
 
 User submits message → Stored in Supabase → Webhook triggers → Email notification sent.
-
-## Setup Instructions
-
-1. Clone the repository

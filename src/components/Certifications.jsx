@@ -10,7 +10,7 @@ const Certifications = () => {
       issuer: 'Deloitte',
       date: '2026',
       tags: ['Tableau', 'Data Analysis'],
-      link: 'https://www.theforage.com/completion-certificates/9PBTqmSxAf6zZTseP/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_697efc91167b81f6ee32f5dd_1769934235044_completion_certificate.pdf' // Add your certificate link here
+      link: 'https://www.theforage.com/completion-certificates/9PBTqmSxAf6zZTseP/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_697efc91167b81f6ee32f5dd_1769934235044_completion_certificate.pdf'
     },
     {
       title: 'Digital Marketing',

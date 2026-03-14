@@ -71,15 +71,3 @@
   color: var(--text-primary);
   transform: scale(1.1);
 }
-
-/* .skill-group {
-  background: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  transition: transform 0.3s ease;
-}
-
-.skill-group:hover {
-  transform: translateY(-5px);
-  border-color: #00d2ff;
-} */

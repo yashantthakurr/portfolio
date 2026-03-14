@@ -21,7 +21,7 @@ const Projects = () => {
     {
       title: 'Personal Portfolio',
       description: 'A versatile portfolio showcasing innovative projects, and demonstrating technical proficiency.',
-      tags: ['React.js', 'Vite', 'Vercel', 'Supabase'],
+      tags: ['React.js', 'JavaScript', 'CSS3', 'Vercel'],
       github: 'https://github.com/yashantthakurr/portfolio',
       live: 'https://yashantportfolio.vercel.app/'
     },

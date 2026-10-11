@@ -1,0 +1,10 @@
+
+PROJECT_TITLE = "Portfolio Backend System"
+PROJECT_DESCRIPTION = f"{PROJECT_TITLE} built purely in Python (FastAPI) + PostgreSQL (Supabase)"
+PROJECT_VERSION = "0.1.0"
+MAIN_API_PREFIX = "/api/v1"
+MESSAGES_API_PREFIX = "/messages"
+PROJECTS_API_PREFIX = "/projects"
+EXPERIENCES_API_PREFIX = "/experiences"
+CERTIFICATES_API_PREFIX = "/certificates"
+AUTH_API_PREFIX = "/auth"

@@ -64,7 +64,7 @@ Configure the frontend's production environment variables to point to the deploy
 
 - **GitHub:** [https://github.com/yashantthakurr](https://github.com/yashantthakurr)
 - **LinkedIn:** [https://www.linkedin.com/in/yashant-thakur](https://www.linkedin.com/in/yashant-thakur)
-- **Instagram:** [https://instagram.com/yashantthakurr](#)
+- **Instagram:** [https://instagram.com/yashantthakurr](https://instagram.com/yashantthakurr)
 
 ---
 

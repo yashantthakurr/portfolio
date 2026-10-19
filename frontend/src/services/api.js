@@ -1,8 +1,8 @@
 
-const API_BASE_URL = (import.meta.env.VITE_API_BASE_URL).replace(/\/+$/, '');
+const VITE_API_BASE_URL = (import.meta.env.VITE_API_BASE_URL).replace(/\/+$/, '');
 
 async function request(endpoint, options = {}) {
-  const url = `${API_BASE_URL}${endpoint.startsWith('/') ? '' : '/'}${endpoint}`;
+  const url = `${VITE_API_BASE_URL}${endpoint.startsWith('/') ? '' : '/'}${endpoint}`;
 
   const defaultHeaders = {
     'Accept': 'application/json',

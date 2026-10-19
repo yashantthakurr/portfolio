@@ -32,9 +32,15 @@ app = FastAPI(
 
 app.state.limiter = limiter
 app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "https://yashantportfolio.vercel.app"],
+    allow_origins=[
+        "http://localhost:5173",
+        "https://yashantthakurr.vercel.app",
+        "https://yashantthakurr.runs-on.dev",
+        "https://heeheeheehaa.runs-on.dev"
+    ],
     allow_methods=["*"],
     allow_headers=["*"],
     allow_credentials=True

@@ -4,7 +4,7 @@ A personal portfolio showcasing my software development journey, technical skill
 
 ## About
 
-I'm a software developer focused on building backend systems and RESTful APIs using **Python, FastAPI, Java, and Spring Boot**. I enjoy working with databases, implementing secure authentication, and exploring ways to build reliable and performant applications.
+I'm a software developer focused on building backend systems and RESTful APIs using **Python (FastAPI) and Java (Spring Boot)**. I enjoy working with databases, implementing secure authentication, and exploring ways to build reliable and performant applications.
 
 This portfolio serves as a central place to explore my projects, technical expertise, experience, and certifications.
 
@@ -22,22 +22,20 @@ This portfolio serves as a central place to explore my projects, technical exper
 
 ### Frontend
 - React
-- Vite
 - JavaScript
-- HTML5 & CSS3
+- CSS3
 
 ### Backend
 - Python
 - FastAPI
-- REST APIs
+- SlowApi
 - Pydantic
+- SQLalchemy
 
 ### Databases & Tools
-- PostgreSQL
-- Redis
+- Supabase
+- Postman
 - Git & GitHub
-
-*The technologies listed above reflect the portfolio's intended stack; adjust them if the current implementation differs.*
 
 ## Architecture
 
@@ -56,77 +54,17 @@ Database
 
 Projects, certifications, and professional experiences are intended to be retrieved from the backend rather than maintained as hardcoded frontend records. Contact form submissions are also handled through the backend API.
 
-## Getting Started
-
-### Prerequisites
-
-- Node.js and npm
-- Access to the FastAPI backend
-
-### Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone <your-repository-url>
-   cd <your-project-folder>
-   ```
-
-2. Install dependencies:
-
-   ```bash
-   npm install
-   ```
-
-3. Create a `.env` file in the frontend project root and configure the backend URL using the environment variable expected by your application.
-
-   For a Vite application, an example is:
-
-   ```env
-   VITE_API_BASE_URL=http://localhost:8000
-   ```
-
-   Replace the URL with your deployed backend URL when deploying the portfolio.
-
-4. Start the development server:
-
-   ```bash
-   npm run dev
-   ```
-
-5. Open the local URL printed in your terminal.
-
-## Backend Configuration
-
-The backend must be running and accessible to the frontend.
-
-Before deploying, ensure that:
-
-- The API base URL points to the correct backend environment.
-- FastAPI CORS settings permit requests from the deployed frontend origin.
-- The required API endpoints are available.
-- Production environment variables are configured correctly.
-
-Never commit secret keys, passwords, or other sensitive credentials to the repository.
-
 ## Deployment
 
 The frontend and backend can be deployed independently.
 
 Configure the frontend's production environment variables to point to the deployed FastAPI API. Ensure the backend allows requests from the production frontend origin.
 
-## Future Improvements
-
-- Add automated frontend and API integration tests.
-- Improve accessibility and loading-state handling.
-- Introduce additional backend-driven portfolio features.
-- Continue refining performance and user experience.
-
 ## Connect With Me
 
-- **GitHub:** [Your GitHub Profile](https://github.com/)
-- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/)
-- **Portfolio:** [Live Website](#)
+- **GitHub:** [https://github.com/yashantthakurr](https://github.com/yashantthakurr)
+- **LinkedIn:** [https://www.linkedin.com/in/yashant-thakur](https://www.linkedin.com/in/yashant-thakur)
+- **Instagram:** [https://instagram.com/yashantthakurr](#)
 
 ---
 

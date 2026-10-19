@@ -14,7 +14,7 @@ class CertificateUpdate(BaseModel):
     name: Optional[str] = Field(None, max_length=100, min_length=3)
     issued_by: Optional[str] = Field(None, min_length=3, max_length=50)
     issued_year: Optional[int] = Field(None,ge=2024)
-    skills: Optional[List[str]] = Field(None, min_length=3, max_length=20)
+    skills: Optional[List[str]] = Field(None, min_length=2, max_length=20)
     certificate_link: Optional[str] = Field(None, max_length=200)
 
 class CertificateResponse(BaseModel):

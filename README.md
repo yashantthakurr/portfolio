@@ -63,7 +63,7 @@ Configure the frontend's production environment variables to point to the deploy
 ## Connect With Me
 
 - **GitHub:** [https://github.com/yashantthakurr](https://github.com/yashantthakurr)
-- **LinkedIn:** [https://www.linkedin.com/in/yashant-thakur](https://www.linkedin.com/in/yashant-thakur)
+- **LinkedIn:** [https://www.linkedin.com/in/yashantthakur](https://www.linkedin.com/in/yashantthakur)
 - **Instagram:** [https://instagram.com/yashantthakurr](https://instagram.com/yashantthakurr)
 
 ---

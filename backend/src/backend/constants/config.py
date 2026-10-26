@@ -1,5 +1,10 @@
 
 from pydantic_settings import BaseSettings, SettingsConfigDict
+from typing import List
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
 
 class Settings(BaseSettings):
 
@@ -10,6 +15,7 @@ class Settings(BaseSettings):
     DATABASE_URL: str
     EMAIL_SENDER_PASSWORD: str
     SECRET_KEY: str
+    ALLOWED_HOSTS: str
 
     model_config = SettingsConfigDict(
         env_file=".env",
@@ -17,3 +23,4 @@ class Settings(BaseSettings):
     )
 
 secrets = Settings()
+ALLOWED_HOSTS: List[str] = os.environ["ALLOWED_HOSTS"].split(",")

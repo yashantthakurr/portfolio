@@ -1,5 +1,6 @@
 
 from backend.constants import naming
+from backend.constants.config import ALLOWED_HOSTS
 from backend.database.session import engine
 from backend.dependencies.database import init_db
 from backend.dependencies.rate_limiting import limiter
@@ -16,6 +17,10 @@ from slowapi import _rate_limit_exceeded_handler
 from slowapi.errors import RateLimitExceeded
 from sqlalchemy import text
 from typing import Dict
+
+print("Allowed Hosts:")
+for i in ALLOWED_HOSTS:
+    print(f"{i}")
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
@@ -35,12 +40,7 @@ app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "http://localhost:5173",
-        "https://yashantthakurr.vercel.app",
-        "https://yashantthakurr.runs-on.dev",
-        "https://heeheeheehaa.runs-on.dev"
-    ],
+    allow_origins=ALLOWED_HOSTS,
     allow_methods=["*"],
     allow_headers=["*"],
     allow_credentials=True
